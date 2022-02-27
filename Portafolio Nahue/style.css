@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #fff;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    box-shadow: rgba(194, 225, 255, 0.342) 0px 8px 24px;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+nav div a{
+    color: black;
+    text-decoration: none;
+    padding: 7px;
+}
+
+nav div a:hover{
+    color: #6397ff;
+    text-decoration: none;
+}
+
+.img-svg-inicio{
+    width: 700px;
+    height: 400px;
+}
+
+.h1-inicio-centrado{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 85vh;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    font-size: 3.5rem;
+    padding: 10px;
+}
+
+
+.span-h1{
+    background: #14D8FF;
+    background: -webkit-linear-gradient(to right, #14D8FF 0%, #227EF5 33%, #1500CF 100%);
+    background: -moz-linear-gradient(to right, #14D8FF 0%, #227EF5 33%, #1500CF 100%);
+    background: linear-gradient(to right, #14D8FF 0%, #227EF5 33%, #1500CF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+section{
+padding-top: 4rem;
+padding-bottom: 3rem;
+}
+
+section h4{
+    text-align: center;
+    padding-bottom: 100px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    font-size: 2rem;
+    background: #14D8FF;
+    background: -webkit-linear-gradient(to right, #14D8FF 0%, #227EF5 33%, #1500CF 100%);
+    background: -moz-linear-gradient(to right, #14D8FF 0%, #227EF5 33%, #1500CF 100%);
+    background: linear-gradient(to right, #14D8FF 0%, #227EF5 33%, #1500CF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.img-me{
+    width: 500px;
+    height: 423px;
+}
+
+.animate-a{
+opacity: 1;
+transform: translateZ(0);
+transition-timing-function: ease;
+transition-duration: 1.2s;
+transition-property: opacity,transform;
+}
+
+.img-about-h5{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+
+
+.img-about-h5 h5{
+    width: 400px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.616);
+}
+
+.img-about-h5 h5 span{
+    color: black;
+}
+
+#about h4{
+    padding: 100px;
+}
+
+
+#skills div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 15px;
+}
+
+#skills div div{
+    flex-direction: column;
+}
+
+
+.fa-html5, .fa-js, .fa-css3-alt, .fa-figma{
+background: #14D8FF;
+background: -webkit-linear-gradient(to right, #14D8FF 0%, #1500CF 100%);
+background: -moz-linear-gradient(to right, #14D8FF 0%, #1500CF 100%);
+background: linear-gradient(to right, #14D8FF 0%, #1500CF 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+padding: 20px;
+font-size: 90px;
+}
+
+.fa-css3-alt, .fa-figma, .fa-html5, .fa-js{
+    transform: rotate(10deg);
+    font-size: 90px;
+}
+
+
+
+#page div{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+#page div h3{
+    text-align: left;
+    width: 290px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+}
+
+#page div h3 span{
+    background: #14D8FF;
+    background: -webkit-linear-gradient(to right, #14D8FF 0%, #227EF5 33%, #1500CF 100%);
+    background: -moz-linear-gradient(to right, #14D8FF 0%, #227EF5 33%, #1500CF 100%);
+    background: linear-gradient(to right, #14D8FF 0%, #227EF5 33%, #1500CF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 290px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+}
+
+
+#audience div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+    
+    #audience div h3{
+        text-align: left;
+        width: 290px;
+        font-family: 'Poppins', sans-serif;
+        text-transform: capitalize;
+        font-size: 1.3rem;
+    }
+    
+    #audience div h3 span{
+        background: #14D8FF;
+        background: -webkit-linear-gradient(to right, #14D8FF 0%, #227EF5 33%, #1500CF 100%);
+        background: -moz-linear-gradient(to right, #14D8FF 0%, #227EF5 33%, #1500CF 100%);
+        background: linear-gradient(to right, #14D8FF 0%, #227EF5 33%, #1500CF 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        width: 290px;
+        font-family: 'Poppins', sans-serif;
+        text-transform: capitalize;
+        font-size: 1.3rem;
+    }
+
+    .img-p-a{
+        width: 700px;
+        height: 500px;
+    }
+
+
+    #analitycs div{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        }
+        
+        #analitycs div h3{
+            text-align: left;
+            width: 290px;
+            font-family: 'Poppins', sans-serif;
+            text-transform: capitalize;
+            font-size: 1.3rem;
+        }
+        
+        #analitycs div h3 span{
+            background: #14D8FF;
+            background: -webkit-linear-gradient(to right, #14D8FF 0%, #227EF5 33%, #1500CF 100%);
+            background: -moz-linear-gradient(to right, #14D8FF 0%, #227EF5 33%, #1500CF 100%);
+            background: linear-gradient(to right, #14D8FF 0%, #227EF5 33%, #1500CF 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            width: 290px;
+            font-family: 'Poppins', sans-serif;
+            text-transform: capitalize;
+            font-size: 1.3rem;
+        }
+    
+        .img-p-a{
+            width: 700px;
+            height: 500px;
+        }
+
+        footer{
+            background-color: #6397ff;
+            padding: 50px;
+        }
+
+        footer div div{
+            display: flex;
+            justify-content: center;
+        }
+
+        footer div div i{
+            padding: 15px;
+            color: white;
+        }
+
+        footer div div i:hover{
+            padding: 15px;
+            color: rgb(0, 0, 0);
+        }
+
+        .fa-telegram-plane{
+            font-size: 30px;
+        }
+
+        .cards{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .porcent25{
+            position: relative;
+            top: 308px;
+            width: 100%;
+            height: 23%;
+            background: #14D8FF;
+            background: -webkit-linear-gradient(to right, #14D8FF 0%, #227EF5 33%, #1500CF 100%);
+            background: -moz-linear-gradient(to right, #14D8FF 0%, #227EF5 33%, #1500CF 100%);
+            background: linear-gradient(to right, #14D8FF 0%, #227EF5 33%, #1500CF 100%);
+            border-bottom-right-radius: 50px;
+        }
+
+        .card-1{
+            background-image: url(/img/cuales-son-los-planetas-del-sistema-solar.jpg);
+        }
+
+        .card-1, .card-2, .card-3{
+            width: 350px;
+            height: 400px;
+            background-color: rgb(255, 255, 255);
+            border-top-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+            box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+            margin: 20px;
+        }
+
+        .card-1:hover{
+            translate: scale(20s);
+        }
+
+        .h4-centrado{
+            display: flex;
+            justify-content: center;
+            padding-top: 150px;
+        }
+
+        .h4-works{
+            text-align: center;
+            padding-bottom: 100px;
+            font-family: 'Poppins', sans-serif;
+            text-transform: capitalize;
+            font-size: 2rem;
+            background: #14D8FF;
+            background: -webkit-linear-gradient(to right, #14D8FF 0%, #227EF5 33%, #1500CF 100%);
+            background: -moz-linear-gradient(to right, #14D8FF 0%, #227EF5 33%, #1500CF 100%);
+            background: linear-gradient(to right, #14D8FF 0%, #227EF5 33%, #1500CF 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        a{
+            text-decoration: none;
+        }
+
+        #tittle-1{
+            color: white;
+            text-transform: uppercase;
+            text-align: center;
+            padding: 10px;
+            font-family: 'Poppins', sans-serif;
+            font-size: 20px;
+            letter-spacing: 3px;
+        }
+
+        #subtitle-1{
+            color: rgba(255, 255, 255, 0.911);
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            letter-spacing: 1px;
+        }
